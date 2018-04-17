@@ -20,7 +20,6 @@ ReactDOM.render(
         <Route path="/posts/new" component={PostNew} />
         <Route path="/posts/:id" component={PostsShow}/>
         <Route exact path="/" component={PostsIndex} />
-
       </Switch>
     </BrowserRouter>
   </Provider>, document.querySelector('.container'));
